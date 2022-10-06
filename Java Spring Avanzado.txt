@@ -1,0 +1,12 @@
+**Spring es el framework más usado de Java. Nos ofrece herramientas que nos permite crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda.
+Spring tiene una estructura modular y flexible, lo que nos hace usar solo lo que necesitemos.
+Vamos a usar 4 subproyectos de Sping:
+Spring Framework: Permite crear aplicaciones empresariales. Es transversal, ya que todos lo usan.
+Spring Boot: Con el que podemos crear aplicaciones autocontenidas y autoconfigurables.
+Spring Data: Gestionar e integrar bases de datos.
+Spring Security: Gestionar la seguridad de la aplicación.
+
+**Spring Framework: permite la creación de aplicaciones empresariales.
+**Spring Boot: permite la creación de aplicaciones auto contenidas y autoconfigurables.
+**Spring Data: permite gestionar e integrar bases de datos relacionales y no relacionales con la aplicación.
+**Spring Security: permite gestionar la seguridad de la aplicación.
