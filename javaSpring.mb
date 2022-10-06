@@ -31,5 +31,14 @@ proyecto quedando de la siguiente manera.
 
 **@Repository: le indicamos a la clase que es la encarga de interactuar con la base de datos.
 **@Component: le indicamos que es un componente de spring.
-
 El primero es mejor porque indicamos el tipo de componente que es.
+
+**DATA MAPPER
+Convertir o traducir dos objetos que pueden hacer una misma labor
+No exponer directamente la base datos medianta la API
+Esto garantiza que ningun agente externo, vizualice la forma del diseño de la base de datos
+Desacoplar la API de una base de datos puntual
+En el caso que se desee integrar una nueva base de datos con otros campos, pero que sea para el mismo proyecto, 
+no es necesario cambiar todo el código, simplemente se crea otro traductor que sirva para traducir la nueva tabla al dominio
+Evita tener campos innecesarios en la API
+Evitar mezclar idiomas en el dominio
