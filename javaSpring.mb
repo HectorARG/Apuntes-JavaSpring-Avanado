@@ -42,3 +42,6 @@ En el caso que se desee integrar una nueva base de datos con otros campos, pero 
 no es necesario cambiar todo el código, simplemente se crea otro traductor que sirva para traducir la nueva tabla al dominio
 Evita tener campos innecesarios en la API
 Evitar mezclar idiomas en el dominio
+
+**@Service:
+Intermediario entre el controlador de la API y el repositorio
